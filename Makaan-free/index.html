@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Makaan – Real Estate in India</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Inter:wght@700;800&display=swap" rel="stylesheet">
+
+    <!-- Icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+<div class="container-fluid bg-white p-0">
+
+    <!-- Navbar -->
+    <div class="container-fluid nav-bar bg-transparent">
+        <nav class="navbar navbar-expand-lg bg-white navbar-light py-0 px-4">
+            <a href="index.html" class="navbar-brand d-flex align-items-center">
+                <img src="img/icon-deal.png" style="width:30px;height:30px" class="me-2" alt="Makaan Logo">
+                <h1 class="m-0 text-primary">Makaan</h1>
+            </a>
+
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto">
+                    <a href="index.html" class="nav-item nav-link active">Home</a>
+                    <a href="about.html" class="nav-item nav-link">About</a>
+                     <a href="property-agent.html" class="nav-item nav-link">Agents</a>
+                    <a href="contact.html" class="nav-item nav-link">Contact</a>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <!-- Header -->
+    <div class="container-fluid header bg-white p-0">
+        <div class="row g-0 align-items-center flex-column-reverse flex-md-row">
+            <div class="col-md-6 p-5">
+                <h1 class="display-5 mb-4">
+                    Find Your <span class="text-primary">Perfect Home</span> in India
+                </h1>
+                <p>
+                    Browse verified flats, villas, and commercial properties across major Indian cities.
+                </p>
+                <a href="property-list.html" class="btn btn-primary py-3 px-5 mt-2">
+                    Explore Properties
+                </a>
+            </div>
+
+            <div class="col-md-6">
+                <div class="owl-carousel header-carousel">
+                    <img class="img-fluid" src="img/carousel-1.jpg" alt="Property Image">
+                    <img class="img-fluid" src="img/carousel-2.jpg" alt="Property Image">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Search (UI only – Freemium) -->
+    <div class="container-fluid bg-primary mb-5" style="padding:35px;">
+        <div class="container">
+            <div class="row g-2">
+                <div class="col-md-4">
+                    <input type="text" class="form-control border-0 py-3" placeholder="Search by keyword">
+                </div>
+                <div class="col-md-4">
+                    <select class="form-select border-0 py-3">
+                        <option selected>Property Type</option>
+                        <option>Flat</option>
+                        <option>Villa</option>
+                        <option>Commercial</option>
+                        <option>Plot</option>
+                    </select>
+                </div>
+                <div class="col-md-4">
+                    <select class="form-select border-0 py-3">
+                        <option selected>City</option>
+                        <option>Bengaluru</option>
+                        <option>Mumbai</option>
+                        <option>Hyderabad</option>
+                        <option>Chennai</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </div>
+ <div class="container py-5">
+        <div class="row g-4">
+
+            <div class="col-lg-4 col-md-6">
+<div class="property-item rounded overflow-hidden property-card"
+     data-title="2 BHK Flat for Sale"
+     data-price="₹85,00,000"
+     data-location="Whitefield, Bengaluru"
+     data-image="img/property-1.jpg">
+
+<img class="img-fluid" src="img/property-1.jpg">
+<div class="p-4">
+<h5 class="text-primary">₹85,00,000</h5>
+<h6>2 BHK Flat for Sale</h6>
+<p>Whitefield, Bengaluru</p>
+</div>
+
+</div>
+</div>
+           <div class="col-lg-4 col-md-6">
+<div class="property-item rounded overflow-hidden property-card"
+     data-title="1 BHK Flat for Rent"
+     data-price="₹18,000/month"
+     data-location="Andheri East, Mumbai"
+     data-image="img/property-2.jpg">
+
+<img class="img-fluid" src="img/property-2.jpg">
+<div class="p-4">
+<h5 class="text-primary">₹18,000 / month</h5>
+<h6>1 BHK Flat for Rent</h6>
+<p>Andheri East, Mumbai</p>
+</div>
+
+</div>
+</div>
+
+            <div class="col-lg-4 col-md-6">
+<div class="property-item rounded overflow-hidden property-card"
+data-title="3 BHK Villa"
+data-price="₹1.2 Cr"
+data-location="Gachibowli, Hyderabad"
+data-image="img/property-3.jpg">
+
+<img class="img-fluid" src="img/property-3.jpg">
+<div class="p-4">
+<h5 class="text-primary">₹95,00,000 Cr</h5>
+<h6>3 BHK Villa</h6>
+<p><i class="fa fa-map-marker-alt me-2"></i>Gachibowli, Hyderabad</p>
+<small>1800 Sq. Ft | 3 BHK | 3 Bathroom</small>
+</div>
+</div>
+</div>
+ <div class="col-lg-4 col-md-6">
+<div class="property-item rounded overflow-hidden property-card"
+data-title="Villa for Sale"
+data-price="₹85,00,000"
+data-location="Golden Heights, Pune"
+data-image="img/villa1.jpeg">
+
+<img class="img-fluid" src="img/villa1.jpeg">
+<div class="p-4">
+<h5 class="text-primary">₹85,00,000</h5>
+<h6>Villa for Sale</h6>
+<p><i class="fa fa-map-marker-alt me-2"></i>Golden Heights, Pune</p>
+<small>1100 Sq. Ft | 5 BHK | 3 Bathroom</small>
+</div>
+</div>
+</div>
+
+           <div class="col-lg-4 col-md-6">
+<div class="property-item rounded overflow-hidden property-card"
+data-title="Luxury Villa"
+data-price="₹95,00,000"
+data-location="Prayagraj, Himachal Pradesh"
+data-image="img/villa.jpg">
+
+<img class="img-fluid" src="img/villa.jpg">
+<div class="p-4">
+<h5 class="text-primary">₹95,00,000</h5>
+<h6>Luxury Villa</h6>
+<p><i class="fa fa-map-marker-alt me-2"></i>Prayagraj, Himachal Pradesh</p>
+<small>1000 Sq. Ft | 8 BHK | 9 Bathroom</small>
+</div>
+</div>
+</div>
+            <div class="col-lg-4 col-md-6">
+<div class="property-item rounded overflow-hidden property-card"
+data-title="3 BHK Flat on Rent"
+data-price="₹1,00,000/month"
+data-location="Gachibowli, Hyderabad"
+data-image="img/flat1.jpg">
+
+<img class="img-fluid" src="img/flat1.jpg">
+<div class="p-4">
+<h5 class="text-primary">₹1,00,000/month</h5>
+<h6>3 BHK Flat on Rent</h6>
+<p><i class="fa fa-map-marker-alt me-2"></i>Gachibowli, Hyderabad</p>
+<small>1800 Sq. Ft | 3 BHK | 4 Bathroom</small>
+</div>
+</div>
+</div>
+
+            <div class="col-lg-4 col-md-6">
+<div class="property-item rounded overflow-hidden property-card"
+data-title="2 BHK Flat for Sale"
+data-price="₹85,00,000"
+data-location="Whitefield, Bengaluru"
+data-image="img/f1.jpg">
+
+<img class="img-fluid" src="img/f1.jpg">
+<div class="p-4">
+<h5 class="text-primary">₹85,00,000</h5>
+<h6>2 BHK Flat for Sale</h6>
+<p><i class="fa fa-map-marker-alt me-2"></i>Whitefield, Bengaluru</p>
+<small>1100 Sq. Ft | 2 BHK | 2 Bathroom</small>
+</div>
+</div>
+</div>
+ <div class="col-lg-4 col-md-6">
+<div class="property-item rounded overflow-hidden property-card"
+     data-title="1 BHK Flat for Rent"
+     data-price="₹18,000/month"
+     data-location="Andheri East, Mumbai"
+     data-image="img/property-2.jpg">
+
+<img class="img-fluid" src="img/property-2.jpg">
+<div class="p-4">
+<h5 class="text-primary">₹18,000 / month</h5>
+<h6>1 BHK Flat for Rent</h6>
+<p>Andheri East, Mumbai</p>
+</div>
+
+</div>
+</div>
+           <div class="col-lg-4 col-md-6">
+<div class="property-item rounded overflow-hidden property-card"
+data-title="3 BHK Villa"
+data-price="₹1.2 Cr"
+data-location="Gachibowli, Hyderabad"
+data-image="img/property-3.jpg">
+
+<img class="img-fluid" src="img/property-3.jpg">
+<div class="p-4">
+<h5 class="text-primary">₹1,70,000 </h5>
+<h6>3 BHK Villa</h6>
+<p><i class="fa fa-map-marker-alt me-2"></i>Gachibowli, Hyderabad</p>
+<small>1800 Sq. Ft | 3 BHK | 3 Bathroom</small>
+</div>
+</div>
+</div>
+
+        </div>
+    </div>
+
+    <!-- Property Types -->
+    <div class="container py-5">
+        <div class="text-center mb-5">
+            <h1>Property Types</h1>
+            <p>Choose from a wide range of residential and commercial properties.</p>
+        </div>
+
+        <div class="row g-4 text-center">
+            <div class="col-lg-3 col-sm-6">
+                <h6>Flat</h6>
+                <span>120+ Listings</span>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <h6>Villa</h6>
+                <span>75+ Listings</span>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <h6>Commercial</h6>
+                <span>60+ Listings</span>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <h6>Plots</h6>
+                <span>40+ Listings</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- About -->
+    <div class="container py-5">
+        <div class="row align-items-center g-5">
+            <div class="col-lg-6">
+                <img src="img/about.jpg" class="img-fluid rounded" alt="About Makaan">
+            </div>
+            <div class="col-lg-6">
+                <h1>Trusted Property Platform</h1>
+                <p>
+                    Makaan helps users discover reliable property listings with clear details and simple navigation.
+                </p>
+                <p><i class="fa fa-check text-primary me-2"></i> Verified listings</p>
+                <p><i class="fa fa-check text-primary me-2"></i> Simple filters</p>
+                <p><i class="fa fa-check text-primary me-2"></i> India-focused properties</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Agents -->
+    <div class="container py-5">
+        <div class="text-center mb-5">
+            <h1>Our Agents</h1>
+            <p>Connect with experienced real estate professionals.</p>
+        </div>
+
+        <div class="row g-4">
+            <div class="col-lg-3 col-md-6 text-center">
+                <img src="img/team-2.jpg" class="img-fluid rounded mb-2" alt="Agent">
+                <h6>Ravi Kumar</h6>
+                <small>Bengaluru</small>
+            </div>
+            <div class="col-lg-3 col-md-6 text-center">
+                <img src="img/team-1.jpg" class="img-fluid rounded mb-2" alt="Agent">
+                <h6>Anita Sharma</h6>
+                <small>Mumbai</small>
+            </div>
+            <div class="col-lg-3 col-md-6 text-center">
+                <img src="img/team-4.jpg" class="img-fluid rounded mb-2" alt="Agent">
+                <h6>Suresh Reddy</h6>
+                <small>Hyderabad</small>
+            </div>
+            <div class="col-lg-3 col-md-6 text-center">
+                <img src="img/team-3.jpg" class="img-fluid rounded mb-2" alt="Agent">
+                <h6>Priya Nair</h6>
+                <small>Chennai</small>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+   <!-- Footer Start -->
+       <div class="container-fluid bg-dark text-white-50 footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-lg-3 col-md-6">
+                        <h5 class="text-white mb-4">Get In Touch</h5>
+                        <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>5th Street, J P Nagar, Bangalore</p>
+                        <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+91 9900569900</p>
+                        <p class="mb-2"><i class="fa fa-envelope me-3"></i>makaan@gmail.com</p>
+                        <div class="d-flex pt-2">
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h5 class="text-white mb-4">Quick Links</h5>
+                        <a class="btn btn-link text-white-50" href="">About Us</a>
+                        <a class="btn btn-link text-white-50" href="">Contact Us</a>
+                        <a class="btn btn-link text-white-50" href="">Our Services</a>
+                        <a class="btn btn-link text-white-50" href="">Privacy Policy</a>
+                        <a class="btn btn-link text-white-50" href="">Terms & Condition</a>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h5 class="text-white mb-4">Photo Gallery</h5>
+                        <div class="row g-2 pt-2">
+                            <div class="col-4">
+                                <img class="img-fluid rounded bg-light p-1" src="img/property-1.jpg" alt="">
+                            </div>
+                            <div class="col-4">
+                                <img class="img-fluid rounded bg-light p-1" src="img/property-2.jpg" alt="">
+                            </div>
+                            <div class="col-4">
+                                <img class="img-fluid rounded bg-light p-1" src="img/property-3.jpg" alt="">
+                            </div>
+                            <div class="col-4">
+                                <img class="img-fluid rounded bg-light p-1" src="img/property-4.jpg" alt="">
+                            </div>
+                            <div class="col-4">
+                                <img class="img-fluid rounded bg-light p-1" src="img/property-5.jpg" alt="">
+                            </div>
+                            <div class="col-4">
+                                <img class="img-fluid rounded bg-light p-1" src="img/property-6.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h5 class="text-white mb-4">Newsletter</h5>
+                        <p>Subscribe to our newsletter for the latest updates and offers.</p>
+                        <div class="position-relative mx-auto" style="max-width: 400px;">
+                            <input class="form-control bg-transparent w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
+                            <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="copyright">
+                    <div class="row">
+                        <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                            &copy; <a class="border-bottom" href="#">Makaan</a>, All Right Reserved. 
+							
+							<!--/* The author’s attribution link must remain intact in the template. */-->
+                            <!--/* If you wish to remove this credit link, please purchase the Pro Version . */-->
+                             <a class="border-bottom" href="https://htmlcodex.com"></a>
+                        </div>
+                        <div class="col-md-6 text-center text-md-end">
+                            <div class="footer-menu">
+                                <a href="">Home</a>
+                                <a href="">Cookies</a>
+                                <a href="">Help</a>
+                                <a href="">FQAs</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary back-to-top">
+        <i class="bi bi-arrow-up"></i>
+    </a>
+
+</div>
+
+<!-- JS -->
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="lib/wow/wow.min.js"></script>
+<script src="lib/owlcarousel/owl.carousel.min.js"></script>
+<script src="js/main.js"></script>
+<script>
+document.querySelectorAll(".property-card").forEach(card => {
+  card.style.cursor = "pointer";
+
+  card.addEventListener("click", () => {
+    const title = card.dataset.title;
+    const price = card.dataset.price;
+    const location = card.dataset.location;
+    const image = card.dataset.image;
+
+    const url = `property-details.html?title=${encodeURIComponent(title)}&price=${encodeURIComponent(price)}&location=${encodeURIComponent(location)}&image=${encodeURIComponent(image)}`;
+
+    window.location.href = url;
+  });
+});
+</script>
+
+</body>
+</html>
