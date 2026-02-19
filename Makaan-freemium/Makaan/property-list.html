@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Makaan – Property Listings India</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Inter:wght@700;800&display=swap" rel="stylesheet">
+
+    <!-- Icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+<div class="container-fluid bg-white p-0">
+
+    <!-- Navbar -->
+    <div class="container-fluid nav-bar bg-transparent">
+        <nav class="navbar navbar-expand-lg bg-white navbar-light py-0 px-4">
+            <a href="index.html" class="navbar-brand d-flex align-items-center">
+                <img src="img/icon-deal.png" style="width:30px;height:30px" class="me-2" alt="Makaan Logo">
+                <h1 class="m-0 text-primary">Makaan</h1>
+            </a>
+
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto">
+                    <a href="index.html" class="nav-item nav-link">Home</a>
+                    <a href="about.html" class="nav-item nav-link">About</a>
+                    <a href="property-list.html" class="nav-item nav-link active">Properties</a>
+                    <a href="property-type.html" class="nav-item nav-link">Property Types</a>
+                    <a href="property-agent.html" class="nav-item nav-link">Agents</a>
+                    <a href="contact.html" class="nav-item nav-link">Contact</a>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <!-- Header -->
+    <div class="container-fluid header bg-white p-0">
+        <div class="row g-0 align-items-center flex-column-reverse flex-md-row">
+            <div class="col-md-6 p-5">
+                <h1 class="display-5 mb-4">Property Listings</h1>
+                <p>Find flats, villas, and commercial properties across major Indian cities.</p>
+            </div>
+            <div class="col-md-6">
+                <img class="img-fluid" src="img/header.jpg" alt="Property Listings">
+            </div>
+        </div>
+    </div>
+
+    <!-- Search (Freemium Filters) -->
+    <div class="container-fluid bg-primary mb-5" style="padding:35px;">
+        <div class="container">
+            <div class="row g-2">
+                <div class="col-md-4">
+                    <input type="text" class="form-control border-0 py-3" placeholder="Search by keyword">
+                </div>
+                <div class="col-md-4">
+                    <select class="form-select border-0 py-3">
+                        <option selected>Property Type</option>
+                        <option>Flat</option>
+                        <option>Villa</option>
+                        <option>Commercial</option>
+                        <option>Plot</option>
+                    </select>
+                </div>
+                <div class="col-md-4">
+                    <select class="form-select border-0 py-3">
+                        <option selected>City</option>
+                        <option>Bengaluru</option>
+                        <option>Mumbai</option>
+                        <option>Hyderabad</option>
+                        <option>Chennai</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Property Cards -->
+    <div class="container py-5">
+        <div class="row g-4">
+
+            <div class="col-lg-4 col-md-6">
+                <div class="property-item rounded overflow-hidden">
+                    <img class="img-fluid" src="img/property-1.jpg" alt="2 BHK Flat Bengaluru">
+                    <div class="p-4">
+                        <h5 class="text-primary">₹85,00,000</h5>
+                        <h6>2 BHK Flat for Sale</h6>
+                        <p><i class="fa fa-map-marker-alt me-2"></i>Whitefield, Bengaluru</p>
+                        <small>1100 Sq. Ft | 2 BHK | 2 Bathroom</small>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+                <div class="property-item rounded overflow-hidden">
+                    <img class="img-fluid" src="img/property-2.jpg" alt="1 BHK Flat Mumbai">
+                    <div class="p-4">
+                        <h5 class="text-primary">₹18,000 / month</h5>
+                        <h6>1 BHK Flat for Rent</h6>
+                        <p><i class="fa fa-map-marker-alt me-2"></i>Andheri East, Mumbai</p>
+                        <small>650 Sq. Ft | 1 BHK | 1 Bathroom</small>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+                <div class="property-item rounded overflow-hidden">
+                    <img class="img-fluid" src="img/property-3.jpg" alt="3 BHK Villa Hyderabad">
+                    <div class="p-4">
+                        <h5 class="text-primary">₹1.2 Cr</h5>
+                        <h6>3 BHK Villa</h6>
+                        <p><i class="fa fa-map-marker-alt me-2"></i>Gachibowli, Hyderabad</p>
+                        <small>1800 Sq. Ft | 3 BHK | 3 Bathroom</small>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="container-fluid bg-dark text-white-50 py-4 text-center">
+        <p class="mb-0">&copy; 2026 Makaan India. All rights reserved.</p>
+    </div>
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary back-to-top">
+        <i class="bi bi-arrow-up"></i>
+    </a>
+
+</div>
+
+<!-- JS -->
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="lib/wow/wow.min.js"></script>
+<script src="lib/owlcarousel/owl.carousel.min.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>
